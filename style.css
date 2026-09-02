@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(228, 174, 131);
+    /* seems pretty self explanatory, colors the body part of the page with that signature skintone.
+    seriously without the contrasting copper colors this is just white guy with a little tan. */
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(201, 117, 65);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    word-spacing: 2px;
+    /* background color for the navbar element. */
+    /* plus the overflow element to make the navbar visible when mounted to the left side of the site.*/
+}
+.navbar a{
+    color: rgb(139, 60, 41);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;  
+    /* colors the navbar and centers it. the reason it sticks to the top is below. */
+}
+.navbar a:hover{
+    background-color: rgb(172, 100, 56);
+    /* applies the "hover" sudoclass (?) to the navbar a elements. */
+    /* when any part of the navbar is hover'd over, it changes to the above color.*/
+}
+.navbar li{
+    float: left;
+    /* mounts the navbar to the left */
+    /* somehow needs the "overflow: hidden; command to make it visible */
+}
